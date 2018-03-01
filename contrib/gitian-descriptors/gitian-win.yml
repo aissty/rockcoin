@@ -22,7 +22,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/rockcoin-project/rockcoin.git"
+- "url": "https://github.com/aissty/rockcoin.git"
   "dir": "rockcoin"
 files: []
 script: |
