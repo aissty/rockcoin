@@ -5,7 +5,7 @@ Before every release candidate:
 
 * Update translations (ping wumpus on IRC) see [translation_process.md](https://github.com/bitcoin/bitcoin/blob/master/doc/translation_process.md#synchronising-translations).
 
-* Update manpages, see [gen-manpages.sh](https://github.com/rockcoin-project/rockcoin/blob/master/contrib/devtools/README.md#gen-manpagessh).
+* Update manpages, see [gen-manpages.sh](https://github.com/aissty/rockcoin/blob/master/contrib/devtools/README.md#gen-manpagessh).
 
 Before every minor and major release:
 
@@ -31,10 +31,10 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 Check out the source code in the following directory hierarchy.
 
     cd /path/to/your/toplevel/build
-    git clone https://github.com/rockcoin-project/gitian.sigs.ltc.git
-    git clone https://github.com/rockcoin-project/rockcoin-detached-sigs.git
+    git clone https://github.com/aissty/gitian.sigs.ltc.git
+    git clone https://github.com/aissty/rockcoin-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
-    git clone https://github.com/rockcoin-project/rockcoin.git
+    git clone https://github.com/aissty/rockcoin.git
 
 ### RockCoin maintainers/release engineers, update version in sources
 
@@ -262,6 +262,6 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
   - Archive release notes for the new version to `doc/release-notes/` (branch `master` and branch of the release)
 
-  - Create a [new GitHub release](https://github.com/rockcoin-project/rockcoin/releases/new) with a link to the archived release notes.
+  - Create a [new GitHub release](https://github.com/aissty/rockcoin/releases/new) with a link to the archived release notes.
 
   - Celebrate
