@@ -3,10 +3,10 @@
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 # What to do
-sign=false
-verify=false
-build=false
-setupenv=false
+sign=true
+verify=true
+build=true
+setupenv=true
 
 # Systems to build
 linux=true
